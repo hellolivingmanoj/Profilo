@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <div class="header">
+      <img src="profile.png" alt="Profile Picture">
+      <h1>Manoj Adhikari</h1>
+      <p>Welcome to a Random Site that you probably found on my Instagram 😆.</p>
+    </div>
+    <div class="section">
+      <h2>About Me 👨‍💼</h2>
+      <p>I am a computer science student with a passion for design and web development.I am constantly dedicated looking for new opportunities to grow and understand the world and the meaning of existence🤔😛.</p>
+    </div>
+    <div class="section">
+      <h2>Skills 🛠️👨‍🎓</h2>
+      <p>Graphic Desin</p>
+      <p>Web Development</p>
+      <p>Shopify Handiling</p>
+      <p>Social Media Ads Optimization</p>
+    </div>
+
+    <div class="section">
+      <h2>Play Snake Game 🐍 </h2>
+      <p1>Controls:</p1><br>
+      <p1>-->Use the up arrow key to move the snake upwards</p1><br>
+      <p1>-->Use the down arrow key to move the snake downwards</p1><br>
+      <p1>-->Use the left arrow key to move the snake to the left</p1><br>
+      <p1>-->Use the right arrow key to move the snake to the right</p1>
+    </div>
+
+    <button id="play-button">Start</button><br><br>
+
+    <canvas id="gameCanvas"></canvas>
+    
+  
+
+    <div class="container">
+      <h3>Contact Me ☏📱</h3>
+      <form id="contact-form" action="POST" data-netlify="true">
+        <input class="input-field" type="text" id="fname" name="firstname" placeholder="your name..">
+        <input class="input-field" type="text" id="lname" name="lastname" placeholder="your last name..">
+        <input class="input-field" type="text" id="place" name="place" placeholder="where you form...">
+        <textarea class="inout-field" id="subject" name="subject" placeholder="write something.." style="height:200px"></textarea><br>
+        <div data-netlify-recaptcha="true"></div>
+        <input id="submit" type="submit" value="Submit">   
+      </form>
+    </div> 
+<br><br>
+    <div class="footer">
+      <h>Manoj Adhikari</h>
+      <p>© Random Human From Planet Earth</p>
+      <h>Made By Humans + Robots</h>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
